@@ -8,10 +8,8 @@
     <!-- scaling for mobile devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Fortune Cookie Generator</title>
-    <!-- <link rel="stylesheet" href="fortune.css"> -->
 
 <style> /* CSS styles in html*/
-
 body {
     font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
     background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3, #54a0ff);
@@ -95,10 +93,10 @@ body {
         height: 10px;
         background-color: rgba(255, 255, 255, 0.8);
         border-radius: 50%;
-        animation: float_particle 5s linear infinite;
+        animation: float-particle 5s linear infinite;
     }
 
-    @keyframes float_particle {
+    @keyframes float-particle {
         0% { transform: translateY(0) translateX(0); opacity: 1; }
         100% { transform: translateY(-100vh) translateX(50px); opacity: 0; }
     }
